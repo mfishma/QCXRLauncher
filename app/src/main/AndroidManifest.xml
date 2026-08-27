@@ -42,6 +42,9 @@
         <meta-data android:name="pvr.display.orientation" android:value="180"/>
         <meta-data android:name="pvr.sdk.version" android:value="OpenXR" />
 
+        <meta-data android:name="com.oculus.ossplash" android:value="true" />
+        <meta-data android:name="com.oculus.ossplash.background" android:value="passthrough-contextual" />
+
         <activity
             android:name=".ui.UIActivity"
             android:exported="false"
